@@ -1,19 +1,3 @@
-/*
-  This example creates a BLE peripheral with a service that contains a
-  couple of characteristics to test BLE connection.
-  The yellow LED shows the BLE module is initialized.
-  The green LED shows RSSI of zero. The more it blinks the worse the connection.
-
-  The circuit:
-  - Arduino Nano 33 BLE Sense board.
-
-  You can use a generic BLE central app, like LightBlue (iOS and Android) or
-  nRF Connect (Android), to interact with the services and characteristics
-  created in this sketch.
-
-  This example code is in the public domain.
-*/
-
 #include <ArduinoBLE.h>
 #include <Arduino_LSM9DS1.h>
 #include <Wire.h>
